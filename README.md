@@ -56,4 +56,4 @@ Automated Python SOC tool that enriches IP addresses with threat intelligence fr
 SOC analyst project – detection → enrichment → automated response.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License – see [LICENSE](LICENSE) file.
