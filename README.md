@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Threat-intel-auto-blocker
 Automated Python SOC tool: Enriches IP with AbuseIPDB, IPinfo &amp; Shodan. Blocks malicious IPs (score ≥80%) via iptables. Full logging &amp; CLI usage. SOC analyst project.
 
@@ -46,18 +48,12 @@ Automated Python SOC tool that enriches IP addresses with threat intelligence fr
 ./threat_blocker.py 104.234.140.98   # will block if score high
 ```
 
-## Screenshots
-(see screenshots/ folder)
-
-- Setup & install
-- Benign IP example
-- Malicious IP + block
-- iptables rules
-- Log files
-
 ## Notes
 - Run with sudo privileges for iptables blocking
 - Test with high-score IPs from abuseipdb.com
 - For production: integrate with Splunk/IDS alerts
 
 SOC analyst project – detection → enrichment → automated response.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
